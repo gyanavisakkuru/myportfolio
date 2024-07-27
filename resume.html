@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+          body{
+            background-color: azure;
+           
+        }
+        header {
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            padding: 10px; 
+        }
+        header h1 {
+            margin: 0; 
+        }
+        ul {
+            list-style-type: none; 
+            padding: 0; 
+            margin: 0; 
+            display: flex; 
+        }
+        ul li {
+            margin-right: 10px; 
+        }
+        li a {
+            text-decoration: none;
+            display: block;
+            padding: 8px;
+            color:black;
+            background-color: azure;
+        }
+        
+        li a:hover {
+        background-color: #68f9e3;
+        }
+
+        .contact-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .contact-container h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #007bff;
+            font-size: 1.5em;
+        }
+        .contact-container p {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .edu, .skill, .certi, .proj {
+            padding-left: 20px;
+            border-left: 3px solid #007bff;
+        }
+        .footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: #007bff; /* Change to the color you prefer */
+}
+
+.footer .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer .contact-info p {
+    margin: 0;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* CSS rules for small devices */
+    body {
+        font-size: 14px;
+    }
+    header {
+        padding: 20px;
+    }
+    .contact-container {
+        max-width: 400px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* CSS rules for medium devices */
+    body {
+        font-size: 16px;
+    }
+    header {
+        padding: 30px;
+    }
+    .contact-container {
+        max-width: 600px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GYANAVI SAKKURU</h1>
+        <ul>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/gyanavi-sakkuru/">LinkedIn</a></li>
+            <li><a href="https://github.com/gyanavisakkuru">GitHub</a></li>
+        </ul>
+    </header>
+    <div class="contact-container">
+        <h2>Education</h2>
+        <div class="edu">
+            <p>ANITS, Vishakhapatnam 2022 – 2025<br>
+            Computer Science with Data Science<br>
+            CGPA 8.4 (till 4th sem)</p>
+            <p>Government Polytechnic College, Srikakulam 2019 – 2022<br>
+            Computer Science<br>
+            Percentage 82%</p>
+            <p>Holy Spirit E.M School, Vizianagaram 2018 – 2019<br>
+            CGPA 9.3</p>
+        </div>
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>Java | Python | SQL | HTML | CSS | JavaScript | Deep Learning</p>
+        </div>
+        <h2>Certificates</h2>
+        <div class="certi">
+            <p>Internship in Cyber Security, Acmegrade<br>
+            Java certification, Infosys Springboard<br>
+            Deep Learning certification in NPTEL<br>
+            AWS 24hrs hackathon certificate</p>
+        </div>
+        <h2>Projects</h2>
+        <div class="proj">
+            <p><b>Gender and Age Detection System Using Deep Learning </b>- a project that combines the power of computer vision and deep learning.<br>
+                <b>Student Registration Form using Java with JDBC connectivity </b>- Java JDBC Student Registration Form stores student data in a database via JDBC connectivity.<br>
+                <b>Online Compiler using HTML, CSS, JavaScript with PHP</b> - An Online Compiler that allows users to write different languages, and compile, and execute code snippets online.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div>
+            <p style="margin-left: -10px; font-size: 20px; font-family: cambria; font-style: bold;">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               Follow me on&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  @created by gyanavisakkuru</p>
+            
+        </div>
+            <div class="contact-info">
+                <p style="margin-left: -550px;">Gyanavi Sakkuru&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="mailto:sakkurugyanavi17@gmail.com" style="text-decoration: none; color: black;">sakkurugyanavi17@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="https://www.linkedin.com/in/gyanavi-sakkuru/" style="text-decoration: none; color: black;"><img src="images/linkedin.png" height="20px" width="20px"></a> <a href="https://github.com/gyanavisakkuru" style="text-decoration: none; color: black;"><img src="images/github.png" height="20px" width="20px"></a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
